@@ -6,8 +6,9 @@ stages{
 	stage('Test'){
 	steps{
 	sh '''
-		cd /home/adminpc12/example
-		ls '''
+		cd /tmp/
+		echo $(date) Hello world >> notes.txt
+		cat /tmp/notes.txt'''
 
 	}
 	}
