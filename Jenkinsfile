@@ -6,7 +6,7 @@ stages{
 	stage('Test'){
 	steps{
 	sh '''
-		cd /home/adminpc12/Documents/example
+		cd /home/adminpc12/example
 		ls '''
 
 	}
